@@ -5,6 +5,7 @@
 //Buffer
 #define BUF_DEF_AC_FIXED 256 //This is fixed because we wanna sort an full memory allocated, so we move structs from/in the array
 
+
 void mateusmt_c_pause(){
 	printf("Press ENTER to continue...\n");
 	getchar();
@@ -23,3 +24,4 @@ int main(){
 	mateusmt_c_pause();
 	return 0;
 }
+
