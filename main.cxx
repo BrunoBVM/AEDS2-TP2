@@ -3,11 +3,11 @@
 #include "header.h"
 
 //Buffer
-#define BUF_DEF_AC_FIXED 128 //This is fixed because we wanna sort an full memory allocated, so we move structs from/in the array
+#define BUF_DEF_AC_FIXED 128 //Isto é fixo pois queremos ordenar uma alocação completa de memória, então movemos structs de/para o array
 
 
 void mateusmt_c_pause(){
-	printf("Press ENTER to continue...\n");
+	printf("Pressione ENTER para continuar...\n");
 	getchar();
 }
 
@@ -21,8 +21,13 @@ struct s_intANDchar_key{
 };
 
 int main(){
-	printf("s_int_key size: %d bytes\ts_intANDchar_key size: %d bytes\n", sizeof(struct s_int_key), sizeof(struct s_intANDchar_key));
+	printf("s_int_key tamanho: %d bytes\ts_intANDchar_key tamanho: %d bytes\n", sizeof(struct s_int_key), sizeof(struct s_intANDchar_key));
 	mateusmt_c_pause();
 	return 0;
 }
 
+
+/*Bibliografia:
+
+
+*/
