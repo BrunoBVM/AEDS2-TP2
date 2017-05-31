@@ -7,7 +7,12 @@
 #include <sstream>
 
 
-/*Bibliografia:
+//Functions
+void f_qs_tester();
+void f_quicksort(int this_array[], int lowbounds, int highbounds);
+void f_quicksort_print(int this_array[], int this_size);
 
+/*Bibliografia:
+https://en.wikibooks.org/wiki/C_Programming/iso646.h
 
 */
