@@ -1,0 +1,1 @@
+g++ -g ./header.h ./main.cxx ./a_insertionsort.cxx ./a_selectionsort.cxx -o ./compiled.file
